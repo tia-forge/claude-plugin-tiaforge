@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "tialink": {
+      "type": "http",
+      "url": "${user_config.tialink_url}",
+      "headers": {
+        "Authorization": "Bearer ${user_config.tialink_token}"
+      }
+    }
+  }
+}
